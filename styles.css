@@ -304,12 +304,12 @@ body {
   cursor: pointer;
   position: relative;
   overflow: hidden;
-  transition: all 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
 }
 
 .cta-button:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 6px 12px rgba(74, 144, 226, 0.2);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(74, 144, 226, 0.3);
 }
 
 .hamburger {
@@ -409,13 +409,13 @@ body {
   cursor: pointer;
   position: relative;
   overflow: hidden;
-  transition: all 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
   font-size: 16px;
 }
 
 .mobile-cta-button:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 6px 12px rgba(74, 144, 226, 0.2);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(74, 144, 226, 0.3);
 }
 
 /* ===== HERO SECTION ===== */
@@ -638,13 +638,12 @@ body {
   gap: 8px;
   position: relative;
   overflow: hidden;
-  transition: all 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
 }
 
 .primary-button:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 6px 12px rgba(74, 144, 226, 0.2);
-  transition: all 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 24px rgba(74, 144, 226, 0.3);
 }
 
 .primary-button.large {
@@ -666,14 +665,15 @@ body {
   gap: 8px;
   position: relative;
   overflow: hidden;
-  transition: all 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: transform 0.2s ease, box-shadow 0.3s ease, background 0.2s ease,
+    color 0.2s ease;
 }
 
 .secondary-button:hover {
   background: var(--primary-color);
   color: white;
-  transform: translateY(-1px);
-  transition: all 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 24px rgba(74, 144, 226, 0.25);
 }
 
 .secondary-button.large {
