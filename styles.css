@@ -636,8 +636,9 @@ body {
 }
 
 .primary-button:hover {
-  transform: translateY(-2px);
+  transform: translateY(-2px) scale(1.02);
   box-shadow: 0 12px 24px rgba(74, 144, 226, 0.3);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .primary-button.large {
@@ -663,7 +664,8 @@ body {
 .secondary-button:hover {
   background: var(--primary-color);
   color: white;
-  transform: translateY(-2px);
+  transform: translateY(-2px) scale(1.02);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .secondary-button.large {
@@ -1525,17 +1527,26 @@ body {
 .cta-section .primary-button {
   background: white;
   color: var(--primary-color);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.cta-section .primary-button:hover {
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: 0 12px 24px rgba(255, 255, 255, 0.3);
 }
 
 .cta-section .secondary-button {
   background: transparent;
   color: white;
   border-color: white;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .cta-section .secondary-button:hover {
   background: rgba(255, 255, 255, 0.1);
   color: white;
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: 0 12px 24px rgba(255, 255, 255, 0.2);
 }
 
 /* ===== FOOTER ===== */
