@@ -304,12 +304,12 @@ body {
   cursor: pointer;
   position: relative;
   overflow: hidden;
-  transition: transform 0.2s ease, box-shadow 0.3s ease;
+  transition: all 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
 .cta-button:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 16px rgba(74, 144, 226, 0.3);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 12px rgba(74, 144, 226, 0.2);
 }
 
 .hamburger {
@@ -409,13 +409,13 @@ body {
   cursor: pointer;
   position: relative;
   overflow: hidden;
-  transition: transform 0.2s ease, box-shadow 0.3s ease;
+  transition: all 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   font-size: 16px;
 }
 
 .mobile-cta-button:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 16px rgba(74, 144, 226, 0.3);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 12px rgba(74, 144, 226, 0.2);
 }
 
 /* ===== HERO SECTION ===== */
